@@ -39,8 +39,12 @@ if(age >= 18 && gender == "Male") {
 
 let marks = Number(prompt("Enter your Marks: "));
 
-if(marks >= 80 && marks <= 100) {
+if(marks >= 90 && marks <= 100) {
+    document.write("A+ grade");
+} else if(marks >= 80) {
     document.write("A grade");
+} else if(marks >= 70) {
+    document.write("B+ grade");
 } else if(marks >= 60) {
     document.write("B grade");
 } else if(marks >= 50) {
