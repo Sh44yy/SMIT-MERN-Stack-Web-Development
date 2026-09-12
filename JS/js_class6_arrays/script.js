@@ -89,5 +89,11 @@ console.log(students);
 // students.splice(start, count);
 students.splice(4, 1);
 
-// if want to add instead of remove students.splice(start, 0, valueToAdd);
+// if want to add instead of remove students.splice(start_index, ,no_of_elements_want_t0_delete_or_replace, valueToAdd_or_replace);
 students.splice(2, 0, "Saboor", "Maaz");
+
+// Search in array
+console.log(students.includes("Mehran")); // give boolean value
+
+// Search element index
+console.log(students.indexOf("Mehran"));
