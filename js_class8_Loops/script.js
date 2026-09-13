@@ -15,6 +15,7 @@ while(!password && j <= attempt) {
     j++;
 }
 
+// Do While Loops
 let k = 1;
 
 do {
