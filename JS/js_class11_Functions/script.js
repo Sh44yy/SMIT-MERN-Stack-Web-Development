@@ -115,14 +115,14 @@ const userDetails = {
     role: "admin"
 }
 
-// function checkAdminRole(email, password, role) {
-//     if(role == userDetails.role) {
-//         console.log("You are allow");
-//     } else {
-//         console.log("something in wrong!");
-//     }
-// }
+function checkAdminRole(userDetails) {
+    if(userDetails.role == "admin") {
+        console.log("You are allow");
+    } else {
+        console.log("something in wrong!");
+    }
+};
 
 // let userRole = prompt("Enter your role: ");
 
-// checkAdminRole()
+checkAdminRole(userDetails);
