@@ -121,7 +121,7 @@ function calculateShipping(orderAmount) {
     if(orderAmount >= 5000) {
         return "Free Shipping";
     } else {
-        return "250 Shipping Fee";
+        return "250 Shipping Fees";
     }
 }
 
