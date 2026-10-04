@@ -17,10 +17,13 @@
 
         // var keyword can be redeclear and reassign
         // let keyword cannot be redeclear but can be reassign
-        // const keyword can declear variable without initialization
+        // const keyword must be initialize at delaration and can't reinitalize
 
         var name = "Shayan Khan";
         var name = "Ali";
+        // const id; // Error
+        const id = 123;
+        id = 321; //error
 
         document.write("Name: " + name);
 
