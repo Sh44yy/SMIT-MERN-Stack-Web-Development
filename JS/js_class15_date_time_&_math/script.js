@@ -2,8 +2,8 @@ let myDate = new Date();
 
 console.log(typeof myDate);
 console.log(myDate);
-console.log(myDate.toDateString());
-console.log(myDate.toISOString());
+console.log("toDateString:" + myDate.toDateString());
+console.log("toISOString: " + myDate.toISOString());
 console.log(myDate.toJSON());
 console.log(myDate.toLocaleDateString());
 console.log(myDate.toLocaleTimeString());
